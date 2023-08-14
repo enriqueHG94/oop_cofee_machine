@@ -17,3 +17,7 @@ class TestCoffeeMaker(unittest.TestCase):
     def test_make_coffee(self):
         drink = MenuItem(name="latte", water=200, milk=150, coffee=24, cost=2.5)
         self.coffee_maker.make_coffee(drink)
+
+
+if __name__ == "__main__":
+    unittest.main()

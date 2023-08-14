@@ -14,3 +14,7 @@ class TestMenuItem(unittest.TestCase):
 
     def test_ingredients(self):
         self.assertDictEqual(self.menu_item.ingredients, {"water": 200, "milk": 150, "coffee": 24})
+
+
+if __name__ == "__main__":
+    unittest.main()
